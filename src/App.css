@@ -1,0 +1,83 @@
+.heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center ;
+  /* border: 1px solid white; */
+  position: static;
+  width: 50rem;
+  margin-left: 37%;
+  margin-top: -250px
+}
+
+.pass{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center ;
+  position: static;
+  width: 50rem;
+  margin-left: 35%;
+  margin-top: 5vh ;
+  /* border: 1px solid white;     */
+}
+
+#text{
+  margin-left: 20px;
+}
+
+input[type=text] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=range] {
+  width: 200px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+
+.attribute {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 17.5rem;
+  margin-right: auto;
+  width: 100%; /* or whatever width fits your design */
+  max-width: 800px; /* prevents it from becoming too wide on large screens */
+  
+}
+.input-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px; 
+  margin-top: 20px;
+}
+
+.input-group label {
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+input[type="range"] {
+  width: 100px; /* adjust as needed */
+}
+
+input[type="checkbox"] {
+  margin-left: 5px;
+}
+
+
+#gen-btn{
+  position : static;
+  margin-top: 50px;
+  margin-left: 35rem;
+  width: 200px;
+  font-size: large;
+}
